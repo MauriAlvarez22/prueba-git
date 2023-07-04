@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GITHUB</title>
+</head>
+<body>
+    <header>
+        <h1>Git  y  Github</h1>
+        <p>Probando Git y Github por primera vez</p>
+        <ul>
+            <h5>Estructura</h5>
+            <li>Inicializar el repositorios con git init. Recordar hacerlo dentro de la carpeta correcta.</li>
+            <li>"Iniciar sesion" utilizando el comnado git config user.name, este para el nombre y el 
+                git config user.email, para el coreo. Para hacerlo de froma global y no tenrer que hacerlo
+                cada vez que inicializamos un repositorios se le agrega --global entre config y user,
+                queadria asi git config --global user.(namo o email).
+            </li>
+            <li>Vincular el repositorio local con el repositorio remoto, este se hace copiando la url que te 
+                aparce en git, ver imagen para entender. Para corroborar si todo salio bien, utilizamos este
+                comando, git remote -v, y te apareceran dos url iguales.
+            <img src=""></li>
+            <li>Gurdar los archivos dentro del repositorio. Con el comando git status, se van a mostar todos
+                los archivos que no tienen seguimiento. Para agregarlos e utiliza el comando git add, acompanado
+                del nombre del archivo que queremos guardar.
+            </li>
+            <li>Ahora tenemos que comitear los archivos. Esto se hace para poder subir los archuvos dentro de un
+                paqute y de esta forma poder subir los archivos a Github. Para crear un commit de usa Esto
+                git commit -m "un nombre que identifique este commit". Una vez comiteados le metemos un 
+                git push origin master y este commit se va al repositorio de Github.
+            </li>
+        
+        </ul>
+
+    </header>
+</body>
+</html>
